@@ -1,0 +1,115 @@
+
+
+.allbox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.allbox2 {
+    display: flex;
+    width: 61%;
+    justify-content: space-between;
+
+}
+
+
+
+
+.allcolor1 {
+    display: block;
+    border: 3px solid red;
+    border-radius: 50px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    font-size: 24px;
+    margin: 50px;
+    box-shadow: 10px 10px 10px red;
+
+}
+
+.allcolor2 {
+    display: block;
+    border: 3px solid red;
+    border-top-left-radius: 50px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    font-size: 24px;
+    margin: 50px;
+    box-shadow: inset 0px 0px 20px red;
+}
+
+.allcolor3 {
+    display: block;
+    border: 3px solid red;
+    border-top-right-radius: 50px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    font-size: 24px;
+    margin: 50px;
+}
+
+.allcolor4 {
+    display: block;
+    border: 3px solid red;
+    border-bottom-right-radius: 50px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    font-size: 24px;
+    margin: 50px;
+}
+
+.allcolor5 {
+    display: block;
+    border: 3px solid red;
+    border-bottom-left-radius: 50px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    font-size: 24px;
+    margin: 50px;
+}
+
+.allcolor6 {
+    display: block;
+    border: 3px solid red;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 50px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    font-size: 24px;
+    margin: 50px;
+}
+
+.allcolor7 {
+    display: block;
+    color: white;
+    background-color: green;
+    border: 3px solid red;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    font-size: 24px;
+    margin: 50px;
+}
+
+.allcolor8 {
+    display: block;
+    color: white;
+    background-color: orangered;
+    border: 3px solid red;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    font-size: 24px;
+    margin: 50px;
+}
