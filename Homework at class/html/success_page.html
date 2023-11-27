@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+    </style>
 </head>
-<body>
+<body><h1>Registration Successful</h1>
+
+    <div id="userInfo"></div>
+
+    <script>
+        // Retrieve query parameters from the URL
+        const queryParams = new URLSearchParams(window.location.search);
+
+        // Function to get the parameter value by name
+        function getParam(name) {
+            return queryParams.get(name) || '';
+        }
+
+        // Display user information
+        const userInfoContainer = document.getElementById('userInfo');
+        userInfoContainer.innerHTML = `
+            <p><strong>First Name:</strong> ${getParam('firstName')}</p>
+            <p><strong>Last Name:</strong> ${getParam('lastName')}</p>
+            <p><strong>Mobile/Email:</strong> ${getParam('mobileEmail')}</p>
+            <p><strong>New Password:</strong> ${getParam('newPassword')}</p>
+            <p><strong>Date of Birth:</strong> ${getParam('selectedYear')}-${getParam('month')}-${getParam('day')}</p>
+            <p><strong>Gender:</strong> ${getParam('gender')}</p>
+        `;
+    </script>
     
 </body>
 </html>
